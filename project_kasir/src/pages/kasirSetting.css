@@ -1,0 +1,105 @@
+:root {
+    --main-color: rgb(199, 46, 238);
+    --bg-color: #111111;
+    --other-color: #212121;
+}
+
+.setting-container {
+    background-color: var(--bg-color);
+}
+
+.setting-wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.setting-header {
+    text-align: center;
+    line-height: 5vh;
+    width: 100%;
+    height: 5vh;
+}
+
+.setting-title {
+    color: aliceblue;
+}
+
+.setting-wrapperlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    width: 100%;
+    height: 95vh;
+}
+
+.setting-productlist {
+    margin-top: 1.5rem;
+    border: 2px solid var(--main-color);
+    box-shadow: 0 1px 25px var(--main-color);
+    display: flex;
+    width: 40rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.setting-productimg {
+    border-radius: 1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    align-items: center;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.setting-productname {
+    margin-right: auto;
+    margin-left: 2rem;
+    color: #fff;
+    align-items: center;
+    line-height: 2rem;
+}
+
+.setting-buttons {
+    margin-right: 1rem;
+}
+
+.setting-editbtn {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.8rem;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.setting-editbtn:hover {
+    color: var(--main-color);
+}
+
+.setting-deletebtn {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.6rem;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 3px;
+}
+
+.setting-deletebtn:hover {
+    color: var(--main-color);
+}

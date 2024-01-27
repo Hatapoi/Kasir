@@ -1,0 +1,81 @@
+:root {
+    --main-color: rgb(199, 46, 238);
+    --bg-color: #111111;
+    --other-color: #212121;
+}
+
+.Home {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+.Home-Bar {
+    background-color: var(--other-color);
+    color: aliceblue;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.Home-Bar-list {
+    font-size: 1.3rem;
+    align-items: center;
+    line-height: 3rem;
+    margin-left: 2rem;
+}
+
+.Home-wraplogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-logo {
+    width: 4rem;
+    height: 4rem;
+    color: aliceblue;
+    margin-bottom: 4rem;
+}
+
+.Home-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-menu-img {
+    width: 360px;
+    height: 240px;
+    border: 2px solid var(--main-color);
+    border-radius: 1rem;
+    margin-bottom: 11px;
+    box-shadow: var(--main-color) 0 1px 8px;
+}
+
+.Home-menu-btn {
+    border: none;
+    font-size: .95rem;
+    font-weight: 500;
+    width: 8rem;
+    height: 2rem;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    border-radius: 10px;
+    background-color: var(--other-color);
+    color: var(--main-color);
+}
+
+.Home-menu-btn:hover {
+    background-color: var(--main-color);
+    color: aliceblue;
+    box-shadow: var(--main-color) 0 1px 25px;
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: rgb(199, 46, 238);
+    --bg-color: #111111;
+    --other-color: #212121;
+}
+
+.addmenu-container {
+    background-color: var(--bg-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.addmenu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addmenu-inputs {
+    margin-top: 1rem;
+}
+
+.addmenu-title {
+    margin-bottom: 3px;
+    color: var(--main-color);
+}
+
+.addmenu-inptname {
+    width: 35rem;
+    height: 1.8rem;
+}
+
+.addmenu-figureimg {
+    margin: 4px;
+    width: 12rem;
+    height: 18rem;
+}
+
+.savebtn {
+    margin: 4px;
+}
